@@ -1,7 +1,7 @@
 <?php
     include 'CloudwaysAPI.class.php';
     $api_key = '5YOYxxxxxxxxxxxxxxxxxxxxxxxx65';
-    $email = 'md@example.com';
+    $email = 'me@example.com';
     $cw_api = new CloudwaysAPI($email,$api_key);
     $servers = $cw_api->get_servers();
     $apps = [];
